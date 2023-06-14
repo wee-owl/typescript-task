@@ -4,6 +4,7 @@ export default class Cart {
   private _items: Buyable[] = [];
 
   add(item: Buyable): void {
+    if (this._items.findIndex(el => el.id === item.id) >= 0 && item.unit) throw new Error('This id is already in the cart');
     this._items.push(item);
   }
 
@@ -21,7 +22,7 @@ export default class Cart {
 
   deleteGood(id: number): void {
     const index = this._items.findIndex(item => item.id === id);
-    if (index === -1) throw new Error('Invalid product id');
+    if (index === -1) throw new Error('This id is not in the cart');
     this._items.splice(index, 1);
   }
 }
