@@ -10,4 +10,3 @@ export default class Book implements Buyable {
     readonly unit: boolean) {
   }
 }
-module.exports = Book;

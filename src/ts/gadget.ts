@@ -15,4 +15,3 @@ export default class Gadget implements Buyable {
     readonly unit: boolean) {
   }
 }
-module.exports = Gadget;

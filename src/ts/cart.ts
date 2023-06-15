@@ -26,4 +26,3 @@ export default class Cart {
     this._items.splice(index, 1);
   }
 }
-module.exports = Cart;

@@ -1,8 +1,8 @@
-const Cart = require('../cart.ts');
-const Book = require('../book.ts');
-const Music = require('../music.ts');
-const Movie = require('../movie.ts');
-const Gadget = require('../gadget.ts');
+import Cart from '../cart';
+import Book from '../book';
+import Music from '../music';
+import Movie from '../movie';
+import Gadget from '../gadget';
 
 test('new cart should be empty', () => {
   const cart = new Cart();
