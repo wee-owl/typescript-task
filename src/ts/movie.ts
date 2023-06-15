@@ -13,3 +13,4 @@ export default class Movie implements Buyable {
     readonly unit: boolean) {
   }
 }
+module.exports = Movie;

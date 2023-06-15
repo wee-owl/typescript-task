@@ -10,3 +10,4 @@ export default class Music implements Buyable {
     readonly unit: boolean) {
   }
 }
+module.exports = Music;

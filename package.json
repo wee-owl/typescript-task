@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "typescript-task",
   "version": "1.0.0",
   "description": "netology-task",
   "main": "index.js",
@@ -15,21 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wee-owl/test.git"
+    "url": "git+https://github.com/wee-owl/typescript-task.git"
   },
   "author": "wee-owl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wee-owl/test/issues"
+    "url": "https://github.com/wee-owl/typescript-task/issues"
   },
-  "homepage": "https://github.com/wee-owl/test#readme",
+  "homepage": "https://github.com/wee-owl/typescript-task#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-typescript": "^7.22.5",
     "@types/jest": "^29.5.2",
-    "babel-jest": "^29.5.0",
     "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
